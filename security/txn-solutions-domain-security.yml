@@ -1,0 +1,31 @@
+generated: '2026-07-21'
+method: probed
+source: dig + TLS probe of txn.com (historical company domain)
+note: >-
+  txn.com is the historical domain of TXN Solutions (TXN), a 2014-founded
+  transaction-data analytics startup that appears to be defunct. As of this
+  probe the domain no longer appears to be operated by the company: its
+  nameservers point to the eName domain marketplace (ns1/ns2.ename.net, SOA
+  admin.ename.net), the apex resolves to an Alibaba Cloud IP (8.218.163.58),
+  HTTPS terminates with a self-signed certificate (confirmed via two
+  independent fetch paths), and the zone publishes no MX, SPF, or DMARC
+  records. This record documents the historical association only; it is not
+  evidence about any live company infrastructure.
+hosts:
+  - host: txn.com
+    dns_a: 8.218.163.58
+    https: true
+    tls_self_signed: true
+    hsts: false
+  - host: www.txn.com
+    dns_a: 8.218.163.58
+domains:
+  - domain: txn.com
+    nameservers:
+      - ns1.ename.net
+      - ns2.ename.net
+    dnssec: false
+    caa: []
+    mx: false
+    spf: false
+    dmarc: false

@@ -1,0 +1,13 @@
+# TXN Solutions
+
+> TXN Solutions (TXN) was a fintech startup founded in 2014 that offered a web application for consumer spending analytics, competitive intelligence, and surveys — capturing spending directly from the credit and debit cards of consumers who joined its research panel to give brands, investors, and researchers insight into consumer spending, merchant performance, and market positioning, including CPG and SKU-level data. It raised seed funding (announced November 2016) from a16z, Homebrew, Bloomberg Beta, and Social Starts. The company appears to be defunct: its historical domain txn.com has been relinquished and now sits parked on the eName domain marketplace with a self-signed certificate and no mail records (probed 2026-07-21). No public API surface is known.
+
+## Company
+
+- [a16z investment list](https://a16z.com/investment-list/): listed as "TXN Solutions" (bare name, no link)
+- [Tracxn profile](https://tracxn.com/d/companies/txn-solutions/): seed round 2016-11-14 with a16z, Homebrew, Social Starts, Bloomberg Beta
+- [PitchBook profile](https://pitchbook.com/profiles/company/107592-22): "captures transactions directly from credit and debit cards" for market research analysis
+
+## APIs
+
+No public APIs are known for this company. This profile exists as a venture-portfolio lead in the API Evangelist network.

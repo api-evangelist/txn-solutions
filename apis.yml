@@ -1,7 +1,26 @@
 aid: txn-solutions
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/txn-solutions.png
 name: TXN Solutions
-description: TXN Solutions is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: TXN Solutions (TXN) was a fintech startup founded in 2014 that offered
+  a web application for consumer spending analytics, competitive intelligence, and
+  surveys - capturing spending directly from the credit and debit cards of consumers
+  who joined its research panel to give brands, investors, and researchers insight
+  into consumer spending, merchant performance, and market positioning, including
+  CPG and SKU-level data. It raised seed funding (announced November 2016)
+  from a16z, Homebrew, Bloomberg Beta, and Social Starts. The company appears defunct
+  as of July 2026 - its historical domain txn.com has been relinquished and is parked
+  on the eName domain marketplace - and no public API surface is known.
 url: https://raw.githubusercontent.com/api-evangelist/txn-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,37 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-evidence: txn.com relinquished (eName marketplace nameservers, self-signed
+  certificate, no MX/SPF/DMARC records) as probed 2026-07-21; last known funding November
+  2016
+x-likely-duplicate-of: txn
+x-likely-duplicate-note: The all/txn stub (backed by bloomberg-beta, slow-ventures,
+  website txn.com) appears to be the same company - Tracxn lists Bloomberg Beta in
+  the TXN Solutions seed round and both resolve to txn.com.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Transaction Data
+- Consumer Spending
+- Market Research
+- Analytics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/txn-solutions-domain-security.yml
+- type: LLMsTxt
+  url: llms/txn-solutions-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
