@@ -36,7 +36,7 @@ x-likely-duplicate-of: txn
 x-likely-duplicate-note: The all/txn stub (backed by bloomberg-beta, slow-ventures,
   website txn.com) appears to be the same company - Tracxn lists Bloomberg Beta in
   the TXN Solutions seed round and both resolve to txn.com.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
